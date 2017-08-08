@@ -35,7 +35,7 @@
     setInterval(function() { 
       $('.slider__wrapper > div:first')
           .fadeOut(fadeTime, function(){
-				$(this).find('.slider__title').animate({marginTop:'-350px'});
+				$(this).find('.slider__title').animate({marginTop:'-999px'});
 				$(this).find('.slider__text--wrapper').delay(fadeTime).animate({marginLeft:'3999px'});
 				$(this).find('.slider__link').delay(fadeTime*2).animate({opacity:'0'});
 				if(_count == sliders.length){
