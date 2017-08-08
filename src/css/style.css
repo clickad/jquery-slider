@@ -68,7 +68,7 @@ button:focus {
 .slider__title{
   border-bottom: 1px solid #cdcdcd;
   text-align: center;
-  margin-top: -350px;
+  margin-top: -999px;
   font-size: 76px;
   text-transform: uppercase;
   font-weight: bold;
