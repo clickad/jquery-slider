@@ -27,11 +27,7 @@
     // For each object in json slider append to html slider wrapper tag
 
      for(var i = 0; i < sliders.length; i++){
-    sliderView.append('<div class = "slider__img" style = "background-image:url(' + sliders[i].src + ')"><div class ="slider__box"><div 
-
-class = "slider__info"><h2 class = "slider__title"> ' + sliders[i].title + ' </h2><div class ="slider__text--wrapper"><h5 class = 
-
-"slider__text">' + sliders[i].text + '</h5></div><button class = "slider__link">' + sliders[i].btn +'</button></div></div></div>');
+    sliderView.append('<div class = "slider__img" style = "background-image:url(' + sliders[i].src + ')"><div class ="slider__box"><div class = "slider__info"><h2 class = "slider__title"> ' + sliders[i].title + ' </h2><div class ="slider__text--wrapper"><h5 class = "slider__text">' + sliders[i].text + '</h5></div><button class = "slider__link">' + sliders[i].btn +'</button></div></div></div>');
 
      sliderTracker.append('<span class = "trackers"></span>');
 
