@@ -6,9 +6,7 @@
 			"id": "1",
 			"link": "#",
 			"src": "img/1.jpg",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. ",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. ",
 			"btn": "First slide",
 			"title": "This is a first slide!"
 		},
@@ -16,9 +14,7 @@ dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
 			"id": "2",
 			"link": "#",
 			"src": "img/2.jpg",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-
-dolore magna aliqua. Ut enim ad minim veniam, quis. ",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. ",
 			"btn": "Second slide",
 			"title": "This is a second slide!"
 		},
@@ -26,9 +22,7 @@ dolore magna aliqua. Ut enim ad minim veniam, quis. ",
 			"id": "3",
 			"link": "#",
 			"src": "img/3.jpg",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-
-dolore magna aliqua. Ut . ",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut . ",
 			"btn": "Third slide",
 			"title": "This is a third slide!"
 		},
@@ -36,9 +30,7 @@ dolore magna aliqua. Ut . ",
 			"id": "4",
 			"link": "#",
 			"src": "img/4.jpg",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. ",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. ",
 			"btn": "Fourth slide",
 			"title": "This is a fourth slide!"
 		}
