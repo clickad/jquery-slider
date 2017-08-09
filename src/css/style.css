@@ -19,8 +19,8 @@ button:focus {
 }
 
 .slider{
-  width: 80%; /* Change this to adjust height of the slider*/
-  height: 550px; /* Change this to adjust width of the slider*/
+  width: 80%; /* default width*/
+  height: 550px; /*default height*/
   margin: auto;
 }
 
