@@ -5,9 +5,8 @@
   }
  
   $.when(getData()).then(function (data) {     
-    var app = {
+    let app = {
       init: function(){
-        var self = this;
         this.$window = $(window);
         this.$document = $(document);
         this.$loader = $('#loader');
@@ -40,13 +39,25 @@
       },
       renderSlides: function(){ // For each object in json slider append to html slider wrapper tag
         this.$slider.show();
-        for(var i = 0; i < this.$sliders .length; i++){
+        for(let i = 0; i < this.$sliders .length; i++){
           this.$sliderView.append(
-            `<div class = "slider__img" style = "background-image:url(` + this.$sliders [i].src + `)">
-             <div class ="slider__box"><div class = "slider__info"><h2 class = "slider__title"> `
-            + this.$sliders [i].title + ` </h2><div class ="slider__text--wrapper"><h5 class = "slider__text">`
-            + this.$sliders [i].text + `</h5></div><button class = "slider__link">` + this.$sliders [i].btn +
-            `</button></div></div></div>`
+            `<div class = "slider__img" style = "background-image:url(${this.$sliders[i].src})">
+              <div class ="slider__box">
+                <div class = "slider__info">
+                  <h2 class = "slider__title">
+                    ${this.$sliders[i].title}
+                  </h2>
+                  <div class ="slider__text--wrapper">
+                    <h5 class = "slider__text">
+                      ${this.$sliders[i].text}
+                    </h5>
+                  </div>
+                  <button class = "slider__link">
+                    ${this.$sliders[i].btn}
+                  </button>
+                </div>
+              </div>
+            </div>`
           );
           this.$sliderTracker.append(
             `<span class = "trackers"></span>`
@@ -61,10 +72,10 @@
         this.$trackerFirst.css('background-color','#09C');
       },
       runSlides: function(){ //slide animation fucntion
-        var self = this;
-        $('.slider__wrapper > div:first').fadeOut(this.$fadeTime, function(){
-          $(this).find(self.$sliderTitle).animate({marginTop:'-999px'});
-          $(this).find(self.$sliderText).delay(self.$fadeTime).animate({marginLeft:'3999px'});
+        let self = this;
+        $('.slider__wrapper > div:first').fadeOut(this.$fadeTime, ()=> {
+          $(this).find(this.$sliderTitle).animate({marginTop:'-999px'});
+          $(this).find(this.$sliderText).delay(this.$fadeTime).animate({marginLeft:'3999px'});
           $(this).find(self.$sliderLink).delay(self.$fadeTime*2).animate({opacity:'0'});
           if(self._$count === self.$sliders.length){
             $(self.$trackerSpan[0]).delay(self.$fadeTime).css('background-color', '#09C');
@@ -86,7 +97,7 @@
           .appendTo('.slider__wrapper');
       }
     };
-    $(window).on('load',function(){
+    $(window).on('load',()=> {
       app.init();
     });
   });

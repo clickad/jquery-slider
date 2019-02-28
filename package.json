@@ -1,0 +1,24 @@
+{
+  "name": "jquery-slider",
+  "version": "1.0.0",
+  "description": "Simple Slider",
+  "main": "src/js/app.js",
+  "scripts": {
+    "babel": "babel --presets es2015 src/js/app.js -o src/build/app.bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clickad/jquery-slider.git"
+  },
+  "author": "Adnan Damadzic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clickad/jquery-slider/issues"
+  },
+  "homepage": "https://github.com/clickad/jquery-slider#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
