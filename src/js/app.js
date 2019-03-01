@@ -1,6 +1,6 @@
 (()=> {
   'use strict';
-  function getData() {
+   let getData = ()=> {
     return $.getJSON('data.json');
   }
  
