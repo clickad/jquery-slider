@@ -29,6 +29,10 @@ button:focus {
   position: fixed;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 .wrapper {
@@ -48,8 +52,9 @@ button:focus {
   display: flex;
   display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   margin-left: 0;
-  box-shadow: 0px 0px 28px #333;
+  box-shadow: 0 0 28px #333;
   background-color: #111;
   width: 100%;
   margin: auto;
@@ -68,6 +73,7 @@ button:focus {
   display: flex;
   display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   flex-direction: row;
   -webkit-flex-direction: row;
 }
@@ -75,6 +81,7 @@ button:focus {
   display: flex;
   display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   flex-direction: column;
   -webkit-flex-direction: column;
   width: 100%;
@@ -119,6 +126,7 @@ button:focus {
   display: flex;
   display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
   flex-direction: inherit;
   -webkit-flex-direction: inherit;
   width: 100%;
@@ -139,10 +147,12 @@ button:focus {
   display: flex;
   display: -webkit-flex;
   align-content: center;
+  -webkit-align-content: center;
   align-items: center;
+  -webkit-align-items: center;
   position: relative;
   height: auto;
-  left: 0px;
+  left: 0;
   bottom: -6px;
   width: 100%;
   margin: auto;
